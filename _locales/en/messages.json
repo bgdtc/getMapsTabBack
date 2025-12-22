@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Restore Google Maps Tab",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Restores the Maps tab in Google search results, allowing you to access Google Maps with one click directly from the search results page.",
+    "description": "Extension description"
+  }
+}
+

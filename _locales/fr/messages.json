@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Restaurer l'onglet Google Maps",
+    "description": "Nom de l'extension"
+  },
+  "extensionDescription": {
+    "message": "Restaure l'onglet Maps dans les résultats de recherche Google, vous permettant d'accéder à Google Maps en un clic directement depuis la page des résultats de recherche.",
+    "description": "Description de l'extension"
+  }
+}
+

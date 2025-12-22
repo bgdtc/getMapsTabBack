@@ -1,0 +1,24 @@
+/**
+ * Styles pour l'onglet Maps restauré
+ * Correspond exactement au design des onglets Google existants
+ * 
+ * Note: Ces styles sont minimaux car l'onglet Maps copie les classes
+ * et styles des onglets existants. Ces règles servent uniquement de
+ * fallback et pour s'assurer que l'onglet s'intègre parfaitement.
+ */
+
+/* S'assurer que l'onglet Maps utilise les mêmes styles que les autres onglets */
+a[href*="maps.google.com"].hdtb-mitem,
+a[href*="/maps/search"].hdtb-mitem {
+  /* Ne pas surcharger les styles - laisser Google les gérer */
+  /* Ces sélecteurs servent uniquement à cibler notre onglet si nécessaire */
+}
+
+/* Support pour le mode sombre - ajustements si nécessaire */
+@media (prefers-color-scheme: dark) {
+  a[href*="maps.google.com"].hdtb-mitem,
+  a[href*="/maps/search"].hdtb-mitem {
+    /* Les styles Google s'appliquent automatiquement via les classes */
+  }
+}
+

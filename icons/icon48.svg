@@ -1,0 +1,35 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="grad48" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34a853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow48">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="0" dy="1" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Fond arrondi avec ombre -->
+  <rect width="48" height="48" rx="10" fill="url(#grad48)" filter="url(#shadow48)"/>
+  <!-- Épingle de carte stylisée -->
+  <g transform="translate(24, 20)">
+    <!-- Cercle principal -->
+    <circle cx="0" cy="0" r="8" fill="white" opacity="0.95"/>
+    <!-- Ombre du cercle -->
+    <circle cx="0" cy="1" r="8" fill="black" opacity="0.1"/>
+    <!-- Triangle pointu -->
+    <path d="M 0 10 L -6 0 L 6 0 Z" fill="white" opacity="0.95"/>
+    <!-- Point central coloré -->
+    <circle cx="0" cy="0" r="3.5" fill="#ea4335"/>
+    <!-- Reflet sur le point -->
+    <ellipse cx="-1" cy="-1" rx="1.5" ry="1" fill="white" opacity="0.4"/>
+  </g>
+</svg>

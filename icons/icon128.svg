@@ -1,0 +1,56 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="grad128" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#34a853;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#fbbc04;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea4335;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="shine128" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    <filter id="shadow128">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.4"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Fond arrondi avec dégradé coloré -->
+  <rect width="128" height="128" rx="24" fill="url(#grad128)" filter="url(#shadow128)"/>
+  <!-- Reflet lumineux -->
+  <rect width="128" height="128" rx="24" fill="url(#shine128)"/>
+  
+  <!-- Épingle de carte stylisée -->
+  <g transform="translate(64, 52)">
+    <!-- Ombre portée de l'épingle -->
+    <ellipse cx="2" cy="32" rx="12" ry="4" fill="black" opacity="0.15"/>
+    
+    <!-- Cercle principal avec ombre -->
+    <circle cx="0" cy="0" r="22" fill="white" opacity="0.98"/>
+    <circle cx="0" cy="2" r="22" fill="black" opacity="0.08"/>
+    
+    <!-- Triangle pointu -->
+    <path d="M 0 26 L -14 0 L 14 0 Z" fill="white" opacity="0.98"/>
+    <path d="M 0 28 L -12 2 L 12 2 Z" fill="black" opacity="0.05"/>
+    
+    <!-- Point central avec dégradé -->
+    <defs>
+      <radialGradient id="pinGrad128" cx="30%" cy="30%">
+        <stop offset="0%" style="stop-color:#ea4335;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#c5221f;stop-opacity:1" />
+      </radialGradient>
+    </defs>
+    <circle cx="0" cy="0" r="10" fill="url(#pinGrad128)"/>
+    
+    <!-- Reflet sur le point -->
+    <ellipse cx="-3" cy="-3" rx="4" ry="3" fill="white" opacity="0.5"/>
+    <ellipse cx="-2" cy="-2" rx="2" ry="1.5" fill="white" opacity="0.8"/>
+  </g>
+</svg>
