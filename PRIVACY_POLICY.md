@@ -59,6 +59,6 @@ Nous vous invitons à consulter régulièrement cette page pour rester informé 
 
 Pour toute question concernant cette politique de confidentialité ou le fonctionnement de l’extension, vous pouvez nous contacter à l’adresse suivante :
 
-`[remplacez-par-votre-email-ou-page-de-contact]`
+`theobogdan408@gmail.com`
 
 
