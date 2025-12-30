@@ -4,10 +4,6 @@
   "version": "1.0.0",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
   "host_permissions": [
     "*://www.google.com/*",
     "*://www.google.fr/*",
