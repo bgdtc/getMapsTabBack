@@ -1,5 +1,6 @@
 # 🗺️ Restore Google Maps Tab
 https://chromewebstore.google.com/detail/restaurer-longlet-google/dlmdnhjglcjpdeaflkgbbbgbgbcghied?hl=fr
+
 Extension Chrome/Brave qui restaure l'onglet "Maps" dans les résultats de recherche Google, vous permettant d'accéder à Google Maps en un clic directement depuis la page des résultats de recherche.
 
 ## 📋 Description
